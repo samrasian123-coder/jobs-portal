@@ -77,7 +77,10 @@ export const JobCard: React.FC<JobCardProps> = ({ job, onApplyClick }) => {
           <div className="flex items-center space-x-1.5">
             <Banknote className="w-4 h-4 text-emerald-700 shrink-0" />
             <span className="font-semibold text-slate-900 truncate">
-              {job.salaryRange || 'See Official Portal'}
+              {<Banknote className="w-4 h-4 text-emerald-700 shrink-0" />
+<span className="font-semibold text-slate-900 truncate">
+  {'See Official Portal'}
+</span>}
             </span>
           </div>
         </div>
