@@ -5,11 +5,14 @@ import { Footer } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "SaudiJobsHub | Find Jobs in Saudi Arabia (Riyadh, Jeddah, Dammam & KSA)",
+    default:
+      "SaudiJobsHub | Find Jobs in Saudi Arabia (Riyadh, Jeddah, Dammam & KSA)",
     template: "%s | SaudiJobsHub KSA",
   },
+
   description:
     "Discover legitimate Saudi Arabia job opportunities by city, category, and profession. Browse verified positions in Riyadh, Jeddah, Dammam, Makkah, Madinah & Neom.",
+
   keywords: [
     "Saudi Arabia Jobs",
     "Jobs in Riyadh",
@@ -22,18 +25,23 @@ export const metadata: Metadata = {
     "Vision 2030 Jobs",
     "Saudi Job Vacancies",
   ],
+
   authors: [{ name: "SaudiJobsHub Portal Team" }],
+
   openGraph: {
     title: "SaudiJobsHub | Saudi Arabia Job Portal",
-    description: "Search and apply for verified Saudi Arabia job opportunities across IT, Engineering, Healthcare, Finance, and Giga-Projects.",
-    url: "https://saudijobshub.com",
+    description:
+      "Search and apply for verified Saudi Arabia job opportunities across IT, Engineering, Healthcare, Finance, and Giga-Projects.",
+    url: "https://jobs-portal-oeon.vercel.app",
     siteName: "SaudiJobsHub",
     locale: "en_US",
     type: "website",
   },
+
   verification: {
-    google: "dnnUmnasd9YADBeNMPO0MK8UOB-g7g_RnmIx78hqjmI",
+    google: "b_a2lnxlAvFeDTYyh7ngAvx_8GoM7RsPnDgViZ04IWY",
   },
+
   robots: {
     index: true,
     follow: true,
