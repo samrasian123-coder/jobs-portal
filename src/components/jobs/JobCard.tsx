@@ -80,7 +80,7 @@ export const JobCard: React.FC<JobCardProps> = ({ job, onApplyClick }) => {
           
 <span className="font-semibold text-slate-900 truncate">
   {'See Official Portal'}
-</span>}
+</span>
             </span>
           </div>
         </div>
